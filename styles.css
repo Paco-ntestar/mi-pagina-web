@@ -1,0 +1,54 @@
+/* Estilos generales para el cuerpo */
+body {
+    font-family: Arial, sans-serif; /* Fuente general */
+    margin: 0; /* Sin margen */
+    padding: 0; /* Sin padding */
+    background-color: #000000; /* Color de fondo */
+    display: flex; /* Usar flexbox para centrar */
+    flex-direction: column; /* Alinear en columna */
+    align-items: center; /* Centrar horizontalmente */
+    justify-content: center; /* Centrar verticalmente */
+    height: 100vh; /* Altura completa de la ventana */
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #119b7d; /* Color de fondo del encabezado */
+    color: rgb(235, 172, 36); /* Color del texto */
+    text-align: center; /* Centrar texto */
+    padding: 20px; /* Espaciado interno */
+    width: 100%; /* Ancho completo */
+}
+
+/* Estilos para el contenido principal */
+main {
+    text-align: center; /* Centrar texto */
+    margin: 20px; /* Margen alrededor */
+}
+
+/* Estilos para los botones */
+button {
+    background-color: #5110c9; /* Color de fondo del botón */
+    color: rgb(80, 226, 165); /* Color del texto del botón */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar por encima */
+    font-size: 16px; /* Tamaño de fuente */
+}
+
+/* Cambiar color del botón al pasar el mouse */
+button:hover {
+    background-color: #c01473; /* Color de fondo al pasar el mouse */
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center; /* Centrar texto */
+    padding: 10px; /* Espaciado interno */
+    background-color: #178497; /* Color de fondo del pie de página */
+    color: rgb(72, 219, 170); /* Color del texto */
+    width: 100%; /* Ancho completo */
+    position: absolute; /* Posición absoluta para mantenerlo en la parte inferior */
+    bottom: 0; /* Alinear al fondo */
+}
